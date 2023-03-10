@@ -4,6 +4,3 @@
 [submodule "arm_control"]
 	path = src/3_control/arm_control
 	url = https://github.com/Bashful-The-robot/arm_control
-	
-	
-	

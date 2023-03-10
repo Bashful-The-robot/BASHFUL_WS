@@ -16,6 +16,9 @@
 [submodule "transforms"]
 	path = src/0_common/transforms
 	url = https://github.com/Bashful-The-robot/transforms
+[submodule "path_planning"]
+	path = src/3_control/path_planning
+	url = https://github.com/Bashful-The-robot/path_planning
 	
 	
-	
+

@@ -7,3 +7,8 @@
 [submodule "localization"]
 	path = src/4_estimation/localization
 	url = https://github.com/Bashful-The-robot/Localization
+[submodule "SLAM"]
+	path = src/4_estimation/SLAM
+	url = https://github.com/Bashful-The-robot/SLAM
+	
+	

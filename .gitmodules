@@ -1,0 +1,3 @@
+[submodule "common_msgs"]
+	path = src/0_common/common_msgs
+	url = https://github.com/Bashful-The-robot/common_msgs

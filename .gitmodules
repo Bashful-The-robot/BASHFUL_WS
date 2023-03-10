@@ -10,5 +10,12 @@
 [submodule "SLAM"]
 	path = src/4_estimation/SLAM
 	url = https://github.com/Bashful-The-robot/SLAM
+[submodule "perception"]
+	path = src/2_perception/perception
+	url = https://github.com/Bashful-The-robot/perception
+[submodule "transforms"]
+	path = src/0_common/transforms
+	url = https://github.com/Bashful-The-robot/transforms
+	
 	
 	

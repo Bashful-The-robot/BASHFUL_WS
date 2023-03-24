@@ -2,6 +2,7 @@
 import rospy
 from nav_msgs.msg import OccupancyGrid
 from visualization_msgs.msg import MarkerArray
+from visualization_msgs.msg import Marker
 from aruco_msgs.msg import MarkerArray as ArucoMarkerArray
 import numpy as np
 from tf2_msgs.msg import TFMessage
@@ -16,13 +17,15 @@ class Brain:
         self.tf_sub = rospy.Subscriber('/tf', TFMessage, self.tf_callback)
         self.loc_sub = rospy.Subscriber('/state/cov', PoseWithCovarianceStamped, self.loc_callback)
         self.markerArr_sub = rospy.Subscriber('/ObjectList', MarkerArray, self.markerArr_callback)
-        self.pose_pub = rospy.Publisher('/goal', Pose, queue_size=10)
+        self.pose_pub = rospy.Publisher('/goal', MarkerArray, queue_size=10)
+        self.marker_array = MarkerArray()
         self.mapdef = False
         self.locdef = False
         self.seenCube = False
         self.arucoList = []
         self.ObjectList = []
         self.seenBox = False
+        self.rate = rospy.Rate(10)
 
 
 
@@ -63,15 +66,20 @@ class Brain:
         
         
     def pub_goal(self):
-        pose=Pose()
-        pose.position = self.ObjectList[0].points
-        pose.orientation = self.ObjectList[0].orientation
-        self.pose_pub.publish(pose)
-        pose2=Pose()
-        pose2.position = self.arucoList[0].pose.pose.position
-        pose2.orientation = self.arucoList[0].pose.pose.orientation
-        self.pose_pub.publish(pose2)
+        marker1 = Marker()
+        marker1.header.frame_id = self.ObjectList[0].header.frame_id
+        marker1.header.stamp = self.ObjectList[0].header.stamp
+        marker1.points = self.ObjectList[0].points
+        self.marker_array.markers.append(marker1)
+        marker2 = Marker()
+        marker2.header.frame_id = self.arucoList[0].header.frame_id
+        marker2.header.stamp = self.arucoList[0].header.stamp
+        marker2.points = self.arucoList[0].pose.pose.position
+        self.marker_array.markers.append(marker2)
+
+        self.pose_pub.publish(self.marker_array)
         rospy.loginfo("I have now published pose")
+        self.rate.sleep()
 
 
 def main():

@@ -1,0 +1,3 @@
+Symlinking /home/robot/BASHFUL_WS/devel/share/brain/cmake/brainConfig.cmake
+Symlinking /home/robot/BASHFUL_WS/devel/share/brain/cmake/brainConfig-version.cmake
+Symlinking /home/robot/BASHFUL_WS/devel/lib/pkgconfig/brain.pc

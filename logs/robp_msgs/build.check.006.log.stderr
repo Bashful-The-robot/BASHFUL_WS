@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/robot/BASHFUL_WS/build/robp_msgs/cmake/robp_msgs-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/robot/BASHFUL_WS/src/0_common/common_msgs/robp_msgs/msg/ObjArray.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [PointStamped]: unknown package [geometry_msgs] on
+  search path [{{'robp_msgs':
+  ['/home/robot/BASHFUL_WS/src/0_common/common_msgs/robp_msgs/msg'],
+  'std_msgs': ['/opt/ros/noetic/share/std_msgs/cmake/../msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:21 (generate_messages)
+
+
+make: *** [Makefile:586: cmake_check_build_system] Error 1

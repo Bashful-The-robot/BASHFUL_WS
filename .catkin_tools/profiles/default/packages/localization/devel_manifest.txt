@@ -1,0 +1,5 @@
+4_estimation/localization
+/home/robot/BASHFUL_WS/devel/.private/localization/cmake.lock /home/robot/BASHFUL_WS/devel/./cmake.lock
+/home/robot/BASHFUL_WS/devel/.private/localization/share/localization/cmake/localizationConfig.cmake /home/robot/BASHFUL_WS/devel/share/localization/cmake/localizationConfig.cmake
+/home/robot/BASHFUL_WS/devel/.private/localization/share/localization/cmake/localizationConfig-version.cmake /home/robot/BASHFUL_WS/devel/share/localization/cmake/localizationConfig-version.cmake
+/home/robot/BASHFUL_WS/devel/.private/localization/lib/pkgconfig/localization.pc /home/robot/BASHFUL_WS/devel/lib/pkgconfig/localization.pc

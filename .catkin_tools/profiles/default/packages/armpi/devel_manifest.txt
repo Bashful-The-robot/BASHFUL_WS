@@ -1,0 +1,7 @@
+3_control/arm_control
+/home/robot/BASHFUL_WS/devel/.private/armpi/cmake.lock /home/robot/BASHFUL_WS/devel/./cmake.lock
+/home/robot/BASHFUL_WS/devel/.private/armpi/share/armpi/cmake/armpiConfig.cmake /home/robot/BASHFUL_WS/devel/share/armpi/cmake/armpiConfig.cmake
+/home/robot/BASHFUL_WS/devel/.private/armpi/share/armpi/cmake/armpiConfig-version.cmake /home/robot/BASHFUL_WS/devel/share/armpi/cmake/armpiConfig-version.cmake
+/home/robot/BASHFUL_WS/devel/.private/armpi/lib/pkgconfig/armpi.pc /home/robot/BASHFUL_WS/devel/lib/pkgconfig/armpi.pc
+/home/robot/BASHFUL_WS/devel/.private/armpi/lib/armpi/ik_controller.py /home/robot/BASHFUL_WS/devel/lib/armpi/ik_controller.py
+/home/robot/BASHFUL_WS/devel/.private/armpi/lib/armpi/cmake.lock /home/robot/BASHFUL_WS/devel/lib/armpi/cmake.lock

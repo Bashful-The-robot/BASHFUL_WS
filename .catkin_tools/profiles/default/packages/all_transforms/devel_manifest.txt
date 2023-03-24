@@ -1,0 +1,5 @@
+0_common/transforms
+/home/robot/BASHFUL_WS/devel/.private/all_transforms/cmake.lock /home/robot/BASHFUL_WS/devel/./cmake.lock
+/home/robot/BASHFUL_WS/devel/.private/all_transforms/share/all_transforms/cmake/all_transformsConfig.cmake /home/robot/BASHFUL_WS/devel/share/all_transforms/cmake/all_transformsConfig.cmake
+/home/robot/BASHFUL_WS/devel/.private/all_transforms/share/all_transforms/cmake/all_transformsConfig-version.cmake /home/robot/BASHFUL_WS/devel/share/all_transforms/cmake/all_transformsConfig-version.cmake
+/home/robot/BASHFUL_WS/devel/.private/all_transforms/lib/pkgconfig/all_transforms.pc /home/robot/BASHFUL_WS/devel/lib/pkgconfig/all_transforms.pc

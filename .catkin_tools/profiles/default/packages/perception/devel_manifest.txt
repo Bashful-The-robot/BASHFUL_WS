@@ -1,0 +1,5 @@
+2_perception/perception
+/home/robot/BASHFUL_WS/devel/.private/perception/cmake.lock /home/robot/BASHFUL_WS/devel/./cmake.lock
+/home/robot/BASHFUL_WS/devel/.private/perception/share/perception/cmake/perceptionConfig-version.cmake /home/robot/BASHFUL_WS/devel/share/perception/cmake/perceptionConfig-version.cmake
+/home/robot/BASHFUL_WS/devel/.private/perception/share/perception/cmake/perceptionConfig.cmake /home/robot/BASHFUL_WS/devel/share/perception/cmake/perceptionConfig.cmake
+/home/robot/BASHFUL_WS/devel/.private/perception/lib/pkgconfig/perception.pc /home/robot/BASHFUL_WS/devel/lib/pkgconfig/perception.pc
